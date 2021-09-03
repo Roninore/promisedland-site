@@ -1,0 +1,110 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+input.white-input {
+  border-bottom: 1px solid #613b1e !important;
+  box-shadow: 0 1px 0 0 #613b1e !important;
+}
+
+input.white-input + label {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 400;
+  font-size: large;
+}
+
+.select-wrapper input.select-dropdown {
+  border-bottom: 1px solid #613b1e !important;
+  box-shadow: 0 1px 0 0 #613b1e !important;
+  font-weight: 400;
+  font-size: large;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: #6a1b9a;
+}
+
+.text {
+  color: #212121;
+  opacity: 1;
+  font-weight: 500 !important;
+}
+
+input.white-input:focus + label {
+  color: #ffffff !important;
+}
+
+input.white-input:focus {
+  border-bottom: 1px solid #ffffff !important;
+  box-shadow: 0 1px 0 0 #ffffff !important;
+}
+.btn2 {
+  margin-right: 10px;
+  border-radius: 5px;
+  font-style: inherit;
+}
+
+body {
+  background-color: rgb(220, 221, 221);
+}
+
+.textopacity {
+  opacity: 1 !important;
+  font-weight: 900 !important;
+  vertical-align: middle !important;
+}
+
+.navbutton:hover {
+  background-color: rgba(20, 20, 20, 0.507);
+}
+.nav-bar {
+  max-height: 10px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+nav,
+nav .nav-wrapper i,
+nav a.sidenav-trigger,
+nav a.sidenav-trigger i {
+  height: 40px !important;
+  line-height: 40px !important;
+  border-bottom: 2px #ea80fc solid !important;
+}
+
+.card-panel h4,
+.card-title {
+  text-align: center !important;
+  text-decoration: underline #ea80fc !important;
+  font-weight: 900 !important;
+  opacity: 1 !important;
+}
+
+nav h4 {
+  line-height: 1%;
+}
+nav b::before {
+  content: 'IP: ';
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.card {
+  margin-top: 2rem;
+}
+.card-panel {
+  margin-top: 5rem;
+}
