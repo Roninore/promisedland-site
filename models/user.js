@@ -1,4 +1,4 @@
-import pkg from 'mongoose'
+const pkg = require('mongoose')
 const { Schema, model } = pkg
 
 const schema = Schema({
@@ -7,4 +7,4 @@ const schema = Schema({
   primaryGroup: { type: String },
   permissions: { type: Array },
 })
-export default model('user', schema)
+module.exports = model('user', schema)

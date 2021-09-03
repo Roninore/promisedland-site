@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Donate site",
   "private": true,
-  "type": "module",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app.js",
     "client": "npm run start --prefix client",

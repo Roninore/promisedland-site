@@ -1,7 +1,7 @@
-import { validationResult } from 'express-validator'
-import createBill from '../../payment/createBill.js'
-import qiwiApi from '../../payment/qiwiApi.js'
-import givePermission from '../../giveDonates/givePermission.js'
+const { validationResult } = require('express-validator')
+const createBill = require('../../payment/createBill.js')
+const qiwiApi = require('../../payment/qiwiApi.js')
+const givePermission = require('../../giveDonates/givePermission.js')
 
 const buy = async (req, res) => {
   const errors = validationResult(req)
@@ -53,4 +53,4 @@ const buy = async (req, res) => {
   }
 }
 
-export default buy
+module.exports = buy

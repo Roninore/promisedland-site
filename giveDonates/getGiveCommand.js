@@ -33,4 +33,4 @@ const getGiveCommand = (name, wantedperm, servers) => {
   }
 }
 
-export default getGiveCommand
+module.exports = getGiveCommand

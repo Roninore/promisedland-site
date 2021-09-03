@@ -1,4 +1,4 @@
-import donateInGroups from '../servInform/donateInGroups.js'
+const donateInGroups = require('../servInform/donateInGroups.js')
 
 const getWantedPerm = (dongroup, wanted) => {
   return Object.entries(donateInGroups[dongroup]).find(([donate, info]) => {
@@ -6,4 +6,4 @@ const getWantedPerm = (dongroup, wanted) => {
   })[1]
 }
 
-export default getWantedPerm
+module.exports = getWantedPerm

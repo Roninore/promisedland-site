@@ -1,14 +1,14 @@
-import Router from 'express'
+const Router = require('express')
 const router = Router()
-import { check } from 'express-validator'
+const { check } = require('express-validator')
 
-import groupsInfo from './requests/groupsInfo.js'
+const groupsInfo = require('./requests/groupsInfo.js')
 router.get('/groupsinfo', groupsInfo)
 
-import getDonates from './requests/getDonates.js'
+const getDonates = require('./requests/getDonates.js')
 router.get('/getdonates', getDonates)
 
-import getPlayer from './requests/getPlayer.js'
+const getPlayer = require('./requests/getPlayer.js')
 router.get(
   '/getplayer',
   [
@@ -19,7 +19,7 @@ router.get(
   getPlayer
 )
 
-import buy from './requests/buy.js'
+const buy = require('./requests/buy.js')
 router.post(
   '/buy',
   [
@@ -30,4 +30,4 @@ router.post(
   buy
 )
 
-export default router
+module.exports = router

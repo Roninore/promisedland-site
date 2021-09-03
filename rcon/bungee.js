@@ -1,5 +1,5 @@
-import config from 'config'
-import Rcon from 'modern-rcon'
+const config = require('config')
+const Rcon = require('modern-rcon')
 
 const rcon = new Rcon(
   config.get('rcon_adress'),
@@ -7,4 +7,4 @@ const rcon = new Rcon(
   config.get('rcon_pass')
 )
 
-export default rcon
+module.exports = rcon

@@ -1,8 +1,8 @@
-import getWantedPerm from './getWantedPerm.js'
-import getGiveCommand from './getGiveCommand.js'
-import giveRainfall from './rainfall/giveRainfall.js'
-import buyed_perm from '../models/buyed_perm.js'
-import errored_perm from '../models/errored_perm.js'
+const getWantedPerm = require('./getWantedPerm.js')
+const getGiveCommand = require('./getGiveCommand.js')
+const giveRainfall = require('./rainfall/giveRainfall.js')
+const buyed_perm = require('../models/buyed_perm.js')
+const errored_perm = require('../models/errored_perm.js')
 
 const givePermission = async (dongroup, name, wanted, billId) => {
   if (dongroup <= 0) {
@@ -41,4 +41,4 @@ const givePermission = async (dongroup, name, wanted, billId) => {
   }
 }
 
-export default givePermission
+module.exports = givePermission

@@ -1,6 +1,6 @@
-import { validationResult } from 'express-validator'
-import donateInGroups from '../../servInform/donateInGroups.js'
-import findPermission from '../../giveDonates/findPermission.js'
+const { validationResult } = require('express-validator')
+const donateInGroups = require('../../servInform/donateInGroups.js')
+const findPermission = require('../../giveDonates/findPermission.js')
 
 const getPlayer = async (req, res) => {
   const errors = validationResult(req)
@@ -34,4 +34,4 @@ const getPlayer = async (req, res) => {
   }
 }
 
-export default getPlayer
+module.exports = getPlayer

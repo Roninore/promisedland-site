@@ -1,8 +1,8 @@
-import express from 'express'
-import mongoose from 'mongoose'
-import config from 'config'
-import path from 'path'
-import routes from './routes/group.routes.js'
+const express = require('express')
+const mongoose = require('mongoose')
+const config = require('config')
+const path = require('path')
+const routes = require('./routes/group.routes.js')
 const app = express()
 
 app.use(express.json({ extended: true }))

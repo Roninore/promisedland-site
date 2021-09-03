@@ -43,4 +43,4 @@ const donateGroups = [
   },
 ]
 
-export default donateGroups
+module.exports = donateGroups
