@@ -26,6 +26,7 @@
     "modern-rcon": "^1.0.3",
     "mongoose": "^5.13.7",
     "nodemon": "^2.0.12",
+    "socket.io": "^4.2.0",
     "uniqid": "^5.3.0"
   },
   "devDependencies": {

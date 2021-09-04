@@ -4,6 +4,9 @@ const config = require('config')
 const path = require('path')
 const routes = require('./routes/group.routes.js')
 const app = express()
+const server = require('http').createServer(app)
+io = require('socket.io')(server)
+module.exports = io
 
 app.use(express.json({ extended: true }))
 app.use('/group', routes)
