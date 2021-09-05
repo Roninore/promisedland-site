@@ -30,14 +30,4 @@ router.post(
   buy
 )
 
-const io = require('../app.js')
-
-router.get('/alice', async (req, res) => {
-  console.log('Алиса сделала запрос!')
-  console.log(req.headers)
-  if (req.header.hasOwnProperty('text'))
-    io.sockets.emit('message', { message: req.headers.text })
-  res.status(200).json({ msg: 'good' })
-})
-
 module.exports = router
