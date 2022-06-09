@@ -1,4 +1,23 @@
-# promisedland-site
-This is a website of minecraft server - promised-land.ru
+## Website for minecraft server (promised-land.ru)
+#### (Don't work now :( , just for CV)
+ - Use MongoDB
+ - Have Paymeng with QiwiPay
+ - Can send data and commands to Minecraft server
+ - React on frontend
+ - Express on server
 
-# https://www.promised-land.ru/
+
+## Сайт для майнкрафт сервера
+#### (В данный момент не запущено, размещаю для портфолио)
+  - БД MongoDB
+  - Оплата услуг через QiwiPay
+  - Может отправлять данные и команды на ядро сервера
+  - React клиент
+  - Express сервер
+ 
+ 
+### Main page view | Главная страница
+![Main page](examples/mainView.png)
+
+###### https://www.promised-land.ru/ (Not work now :()
+###### by Roninore (2021)
