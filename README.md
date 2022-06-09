@@ -19,5 +19,5 @@
 ### Main page view | Главная страница
 ![Main page](examples/mainView.png)
 
-###### https://www.promised-land.ru/ (Not work now :()
+###### https://www.promised-land.ru/ | Not work now :( |
 ###### by Roninore (2021)
