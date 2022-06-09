@@ -6,4 +6,4 @@ const wait = async (time) => {
   })
 }
 
-export default wait
+module.exports = wait

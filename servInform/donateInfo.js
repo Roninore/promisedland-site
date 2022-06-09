@@ -467,4 +467,4 @@ const donateInfo = [
   },
 ]
 
-export default donateInfo
+module.exports = donateInfo

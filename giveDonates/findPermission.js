@@ -1,5 +1,5 @@
-import Mongo_user from '../models/user.js'
-import Hservers from '../servInform/servers.js'
+const Mongo_user = require('../models/user.js')
+const Hservers = require('../servInform/servers.js')
 
 const findPermission = async (name, dongroup) => {
   let user = null
@@ -23,4 +23,4 @@ const findPermission = async (name, dongroup) => {
   return { group, user }
 }
 
-export default findPermission
+module.exports = findPermission

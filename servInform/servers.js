@@ -6,4 +6,4 @@ const servers = {
   surveasy: 2,
   global: 0,
 }
-export default servers
+module.exports = servers

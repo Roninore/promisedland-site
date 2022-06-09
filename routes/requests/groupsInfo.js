@@ -1,5 +1,5 @@
-import donateGroups from '../../servInform/donateGroups.js'
-import donateInfo from '../../servInform/donateInfo.js'
+const donateGroups = require('../../servInform/donateGroups.js')
+const donateInfo = require('../../servInform/donateInfo.js')
 
 const groupsInfo = async (req, res) => {
   try {
@@ -9,4 +9,4 @@ const groupsInfo = async (req, res) => {
   }
 }
 
-export default groupsInfo
+module.exports = groupsInfo

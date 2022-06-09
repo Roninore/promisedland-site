@@ -1,4 +1,4 @@
-import pkg from 'mongoose'
+const pkg = require('mongoose')
 const { Schema, model } = pkg
 
 const schema = Schema({
@@ -7,4 +7,4 @@ const schema = Schema({
   command: { type: String, require: true },
   date: { type: Date, required: true },
 })
-export default model('errored_perm', schema)
+module.exports = model('errored_perm', schema)

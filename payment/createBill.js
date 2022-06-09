@@ -1,7 +1,7 @@
-import getWantedPerm from '../giveDonates/getWantedPerm.js'
-import findPermission from '../giveDonates/findPermission.js'
-import donateInGroups from '../servInform/donateInGroups.js'
-import qiwiApi from './qiwiApi.js'
+const getWantedPerm = require('../giveDonates/getWantedPerm.js')
+const findPermission = require('../giveDonates/findPermission.js')
+const donateInGroups = require('../servInform/donateInGroups.js')
+const qiwiApi = require('./qiwiApi.js')
 
 const createBill = async (name, dongroup, wanted) => {
   if (dongroup <= 0) return false
@@ -36,4 +36,4 @@ const createBill = async (name, dongroup, wanted) => {
   return { url: request.payUrl, billId }
 }
 
-export default createBill
+module.exports = createBill
