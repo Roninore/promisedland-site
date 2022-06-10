@@ -5,7 +5,7 @@
  - Can send data and commands to Minecraft server
  - React on frontend
  - Express on server
-
+ - HTTPS connection with reg.ru certificate
 
 ## Сайт для майнкрафт сервера
 #### (В данный момент не запущено, размещаю для портфолио)
@@ -14,6 +14,7 @@
   - Может отправлять данные и команды на ядро сервера
   - React клиент
   - Express сервер
+  - HTTPS подключение и сертификат от reg.ru
  
  
 ### Main page view | Главная страница
