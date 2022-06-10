@@ -6,6 +6,7 @@
  - React on frontend
  - Express on server
  - HTTPS connection with reg.ru certificate
+ - Hosted on Amazon web services
 
 ## Сайт для майнкрафт сервера
 #### (В данный момент не запущено, размещаю для портфолио)
@@ -15,6 +16,7 @@
   - React клиент
   - Express сервер
   - HTTPS подключение и сертификат от reg.ru
+  - Было запущено на Amazon web services
  
  
 ### Main page view | Главная страница
